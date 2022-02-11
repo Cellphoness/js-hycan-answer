@@ -6,7 +6,7 @@ const { Maybe, Container } = require('./support')
   练习1: 
   实现函数 ex1 
   使用 fp.add(x, y) 和 fp.map(f, x)
-  让函子里的值 增加1
+  让函数里的值 增加1
 */
 // 1.创建一个函子
 let maybe = Maybe.of([5, 6, 1])
